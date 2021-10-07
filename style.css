@@ -1,0 +1,68 @@
+:root{
+  --rockify-Primary: #CDC89C;
+  --rockify-Secondary: #99AF88;
+  --rockify-Dark: #6D6358;
+}
+
+body{
+  background-color: var(--rockify-Primary);
+}
+
+.text-align-center{
+  vertical-align: middle;
+}
+
+.bg-rock-hero{
+  background-image: url("https://s3-alpha-sig.figma.com/img/c286/7e34/35025814662a28474794c1b917fa3ace?Expires=1634515200&Signature=W8Gt~iyObifbniNRGr161oww5YqBcZtRFMSTxm2xLGa9LH2QntY2PEwaDmURuvR8Zadap75pnSXQeZc4OzG1osYz2S0GnDwhx5UT46cjZylf0HO1x4Kkqk5kjKqla20RKs0pPn7-PZD1ADkm6kq8TVojdoswTjeNnKKfg~WeU81d3tgYRixa4N7DZDn5iRqJLBtaE6qgnTByw-1dGnBuHo-2lJ18uYf9HB-yHnE6yrr23COiu97B1j436sHRLTbH8Awg-7xpR5u7gr8J-9s8H-gyPcQTDcLYXkm2REGHPMOh-ItsHWUyQH~yRHxXNE5YTsx01xSNLfJfL6WBCBpqsw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (min-width: 768px){
+  .bg-rock-hero{
+    background-image: url("https://s3-alpha-sig.figma.com/img/7bca/8c29/7412ecbd6e23f10f75ad9742f8a5e6f5?Expires=1634515200&Signature=WyEjMvJWrpV5vpkon65TqUxbKLvKo2WUOjq3SjRZ-rpl0Q4JMK~L4H1X9OeRB3IdFSlfVEpvscMN9VsqOq5Tz6iRBOJ~O4uFdERizy1yn-ci7VZAC-zkxC5~7ita6HTSjgI~r8A73lmrZ6kVoXn1qU4cQ92~APTFvFWdDQua0GJ~f8ZoouIwg9EZVhaYkLVgRx3bfyF4MILsha7DtHYPJfYHstQ9pVoCSHxty4dGHXMJANNQeHyKCsMfGf159O70ehoGu4J6GBdJzNCtm3hePOTxm38lmWWYPCYlIzWM3N-jrGaRW90Cty8K~jqhNAtkbBkV63J2ht-zrWkuD~Dlgg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  }
+}
+
+
+a{
+  color: rgb(31, 30, 30)!important;
+}
+
+.bg-secondary{
+  background-color: var(--rockify-Secondary)!important;
+}
+
+.bg-primary{
+  background-color: var(--rockify-Primary)!important;
+}
+
+.bg-filter{
+  background-color: #cdc89cb6!important;
+  backdrop-filter: blur(5px);
+}
+
+
+.site-font{
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.masthead{
+  min-height: 50vh;
+}
+
+
+.btn-move{
+  transform: translateY(1rem);
+  transition: all ease .2s;
+}
+
+.btn-move:hover{
+  transform: rotateY(180deg) scale(3);
+}
+
+.bg-moon{
+  min-height: 25vh;
+  background-image: url("https://s3-alpha-sig.figma.com/img/a671/d9e9/ee8e8d5d34f1737092637ad2753a8e1d?Expires=1634515200&Signature=Dkhd8lTsDi~sroRXy0iaFzurfvTYjjeHigQJqn-rRE1dOjieEhZBAAt2~cPKxA6Wlkd~5zG4~vVYR3GfK54esOOr8iinxY5Tp9szT8ryMWpWgjDLYMNXeKLILDNQnDe1FkkBFZGaTz3naGbVQW5EvGZ4hSeg33RXxejTBAfgAQDiNxXjgJJpSjmAc~woBWYdd24mLDDD2ZXvpUS0AXcxbCPmNCvb8vztESMk3VgLUJTbGJSHrfX3Kcx1QXO7RyT4TMQMtUmBBW4SnTIgEJ~9izOCs~2p0rEBcjYEwlPAr3E~YfrY1r68YHDazOyvdHRYZ90Gdnc-PjjnW37Ed~g0Xg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+  background-position: center;
+}
